@@ -413,3 +413,270 @@ footer .credits a:hover {
 html {
     scroll-behavior: smooth;
 }
+
+.hamburger {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    font-weight: bolder;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 0; 
+    display: block;
+    transition: color 0.3s, background 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ff6347;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo-all {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        background: url('images/gonder2.jpg') no-repeat center center/cover;
+        height: 60vh;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.5em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .click-button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    .aboutme-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutme-item {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-text, .about-image {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .about-image img {
+        width: 100%;
+    }
+
+    .contact form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    footer {
+        padding: 20px 10px;
+    }
+
+    footer .social-media a {
+        font-size: 1.5em;
+        margin: 0 10px;
+    }
+
+    footer p, footer .credits {
+        font-size: 1em;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo-all {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        font-size: 1.5em;
+        margin: 0;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 2em;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        background: url('images/gonder2.jpg') no-repeat center center/cover;
+        height: 60vh;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 2.5em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .click-button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    .aboutme-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutme-item {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-text, .about-image {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .about-image img {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 20px 10px;
+    }
+
+   
+    .contact form {
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box; 
+        margin: 0; 
+    }
+
+    .contact form label {
+        font-size: 0.9em;
+    }
+
+    .contact form input,
+    .contact form textarea {
+        font-size: 0.9em;
+        padding: 10px; 
+        margin-bottom: 15px; 
+    }
+
+    .contact form button {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+}
+    footer {
+        padding: 20px 10px;
+    }
+
+    footer .social-media a {
+        font-size: 1.5em;
+        margin: 0 10px;
+    }
+
+    footer p, footer .credits {
+        font-size: 1em;
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
